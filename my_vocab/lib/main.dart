@@ -6,6 +6,7 @@ import 'package:my_vocab/APIUtils.dart';
 import 'package:my_vocab/Vocab.dart';
 import 'package:my_vocab/VocabAnimContainFul.dart';
 import 'package:my_vocab/VocabCard.dart';
+import 'package:my_vocab/VocabListLoader.dart';
 
 void main() {
   runApp(MyApp());
@@ -43,21 +44,21 @@ class _4Test extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    vocabs.clear();
-    vocabs.add(Vocab.fromJson({'id': 1, 'lesson': 1, 'type': 4, 'en': "SandStorm", 'ipa': "/ˈsænd.stɔːm/", 'vi': "Bão cát", 'description': "a strong wind in a desert carrying a large amount of sand", 'urlPronunciation': "http://192.168.0.8:8000/uksands003.mp3"}));
-    vocabs.add(Vocab.fromJson({'id': 1, 'lesson': 1, 'type': 4, 'en': "SandStorm", 'ipa': "/ˈsænd.stɔːm/", 'vi': "Bão cát", 'description': "a strong wind in a desert carrying a large amount of sand", 'urlPronunciation': "http://192.168.0.8:8000/uksands003.mp3"}));
-    vocabs.add(Vocab.fromJson({'id': 1, 'lesson': 1, 'type': 4, 'en': "SandStorm", 'ipa': "/ˈsænd.stɔːm/", 'vi': "Bão cát", 'description': "a strong wind in a desert carrying a large amount of sand", 'urlPronunciation': "http://192.168.0.8:8000/uksands003.mp3"}));
-    vocabs.add(Vocab.fromJson({'id': 1, 'lesson': 1, 'type': 4, 'en': "SandStorm", 'ipa': "/ˈsænd.stɔːm/", 'vi': "Bão cát", 'description': "a strong wind in a desert carrying a large amount of sand", 'urlPronunciation': "http://192.168.0.8:8000/uksands003.mp3"}));
     return Scaffold(
       appBar: AppBar(title: Text(this.title),),
-      body: Center(
-        child: ListView.builder(
-          itemCount: vocabs.length,
-          itemBuilder: (context, index) {
-            return VocabAnimContainFul(vocab: vocabs[index],);
-          },
-        ),
-      )
-    );
+      body:Column(
+        mainAxisSize: MainAxisSize.max,
+        children: [
+          Container(
+            height: (MediaQuery.of(context).size.height),
+            width: (MediaQuery.of(context).size.width),
+            child: Center(
+              child: VocabListLoader(),
+            ),
+          )
+        ],
+
+        )
+      );
   }
 }

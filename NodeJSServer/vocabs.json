@@ -1,5 +1,5 @@
 [
-{id: 1, lesson: 1, type: 0, en: "SandStorm", ipa: "/ˈsænd.stɔːm/", vi: "Bão cát", description: "a strong wind in a desert carrying a large amount of sand", urlPronunciation: "https://dictionary.cambridge.org/media/english/uk_pron/u/uks/uksan/uksands003.mp3"},
-{id: 1, lesson: 1, type: 0, en: "SandStorm", ipa: "/ˈsænd.stɔːm/", vi: "Bão cát", description: "a strong wind in a desert carrying a large amount of sand", urlPronunciation: "https://dictionary.cambridge.org/media/english/uk_pron/u/uks/uksan/uksands003.mp3"},
-{id: 1, lesson: 1, type: 0, en: "SandStorm", ipa: "/ˈsænd.stɔːm/", vi: "Bão cát", description: "a strong wind in a desert carrying a large amount of sand", urlPronunciation: "https://dictionary.cambridge.org/media/english/uk_pron/u/uks/uksan/uksands003.mp3"}
+{"id": 1, "lesson": 1, "type": 0, "en": "SandStorm", "ipa": "/ˈsænd.stɔːm/", "vi": "Bão cát", "description": "a strong wind in a desert carrying a large amount of sand", "urlPronunciation": "http://192.168.0.101:8000/uksands003.mp3"},
+{"id": 1, "lesson": 1, "type": 0, "en": "deforestation", "ipa": "/diːˌfɒr.ɪˈsteɪ.ʃən/", "vi": "Sự phá rừng", "description": "the cutting down of trees in a large area, or the destruction of forests by people", "urlPronunciation": "http://192.168.0.101:8000/deforestation.mp3"},
+{"id": 1, "lesson": 1, "type": 0, "en": "SandStorm", "ipa": "/ˈsænd.stɔːm/", "vi": "Bão cát", "description": "a strong wind in a desert carrying a large amount of sand", "urlPronunciation": "http://192.168.0.101:8000/uksands003.mp3"}
 ]

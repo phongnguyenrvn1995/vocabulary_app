@@ -21,6 +21,7 @@ environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
+  fluttertoast: ^8.0.7
   scoped_model: ^1.1.0
   http: ^0.13.3
   audioplayers: ^0.19.1
