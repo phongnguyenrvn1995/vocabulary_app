@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "name": "1. Clothing 1",
+    "apiVocabs": "u1.json"
+  },
+  {
+    "id": 1,
+    "name": "2. Clothing 2",
+    "apiVocabs": "u2.json"
+  },
+  {
+    "id": 2,
+    "name": "3. Shopping 1",
+    "apiVocabs": "u3.json"
+  },
+  {
+    "id": 3,
+    "name": "4. Shopping 2",
+    "apiVocabs": "u4.json"
+  },
+  {
+    "id": 4,
+    "name": "5. Food & Drink 1",
+    "apiVocabs": "u5.json"
+  },
+  {
+    "id": 5,
+    "name": "6. Food & Drink 2",
+    "apiVocabs": "u6.json"
+  }
+]

@@ -2,9 +2,9 @@
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:my_vocab/APIUtils.dart';
+import 'package:my_vocab/vocab/Vocab.dart';
 import 'package:scoped_model/scoped_model.dart';
-import 'package:my_vocab/Vocab.dart';
-import 'package:http/http.dart' as http;
 
 class VocabCard extends StatelessWidget{
   final Vocab vocab;
@@ -65,7 +65,9 @@ class VocabCard extends StatelessWidget{
             IconButton(
                 onPressed: () async {
                   try {
-                    await player.play(vocab.urlPronunciation);
+                    String source = APIUtil.API_URL + ':' + APIUtil.PORT.toString() + '/' + vocab.urlPronunciation;
+                    print('MP3 source ' + source);
+                    await player.play(source);
                   } catch (ex) {
                     print(ex);
                   }
@@ -108,21 +110,21 @@ class VocabCard extends StatelessWidget{
 
   Color wordTypeColour(){
     switch(this.vocab.type) {
-      case 0: return Colors.green;
-      case 1: return Colors.redAccent;
-      case 2: return Colors.orangeAccent;
-      case 3: return Colors.purpleAccent;
-      default: return Colors.limeAccent;
+      case 0: return Color(0xFFD55F5F);
+      case 1: return Colors.green;
+      case 2: return Color(0xFF821CC1);
+      case 3: return Color(0xFFD56B32);
+      default: return Color(0xFF414D74);
     }
   }
 
   String typeToString(){
     switch(this.vocab.type) {
-      case 0: return 'Noun';
-      case 1: return 'Verb';
-      case 2: return 'Adjective';
-      case 3: return 'Adverb';
-      default: return 'Other';
+      case 0: return 'Verb';
+      case 1: return 'Noun';
+      case 2: return 'Adverb';
+      case 3: return 'Adjective';
+      default: return 'Phrase';
     }
   }
 }

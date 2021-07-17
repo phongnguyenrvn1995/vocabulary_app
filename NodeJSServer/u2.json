@@ -1,0 +1,62 @@
+[
+  {
+    "id": 0,
+    "lesson": 1,
+    "type": 3,
+    "en": "Pricy",
+    "ipa": "/ˈpraɪ.si/",
+    "vi": "Đắt tiền",
+    "description": "Expensive",
+    "urlPronunciation": "sound/u2/Pricy.mp3"
+  },
+  {
+    "id": 1,
+    "lesson": 1,
+    "type": 1,
+    "en": "Straw",
+    "ipa": "/strɔː/",
+    "vi": "Rơm rạ, cỏ khô",
+    "description": "Dried grass",
+    "urlPronunciation": "sound/u2/Straw.mp3"
+  },
+  {
+    "id": 2,
+    "lesson": 1,
+    "type": 1,
+    "en": "Jeweller",
+    "ipa": "/ˈdʒuː.ə.lər/",
+    "vi": "Thợ kim hoàn",
+    "description": "A store or persion who sells precious stones and jewellry",
+    "urlPronunciation": "sound/u2/Jeweller.mp3"
+  },
+  {
+    "id": 3,
+    "lesson": 1,
+    "type": 1,
+    "en": "Raincoat",
+    "ipa": "/ˈreɪŋ.kəʊt/",
+    "vi": "Áo mưa",
+    "description": "A waterproof coat worn when it's raining",
+    "urlPronunciation": "sound/u2/Raincoat.mp3"
+  },
+  {
+    "id": 4,
+    "lesson": 1,
+    "type": 1,
+    "en": "Cape",
+    "ipa": "/keɪp/",
+    "vi": "Áo choàng",
+    "description": "A coat without sleeves fastened at the neck",
+    "urlPronunciation": "sound/u2/Cape.mp3"
+  },
+  {
+    "id": 5,
+    "lesson": 1,
+    "type": 1,
+    "en": "Collectible",
+    "ipa": "/kəˈlek·tə·bəl/",
+    "vi": "Vật sưu tầm",
+    "description": "An item people collect as a hobby",
+    "urlPronunciation": "sound/u2/Collectible.mp3"
+  }
+]

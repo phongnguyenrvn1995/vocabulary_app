@@ -6,20 +6,25 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:my_vocab/APIUtils.dart';
-import 'package:my_vocab/Vocab.dart';
-import 'package:my_vocab/VocabAnimContainFul.dart';
+import 'package:my_vocab/vocab/Vocab.dart';
+import 'package:my_vocab/vocab/VocabAnimContainFul.dart';
 
 class VocabListLoader extends StatefulWidget {
+  String apiVocabs;
+
+  VocabListLoader({this.apiVocabs});
+
   @override
   State<StatefulWidget> createState() {
-    return VocabListLoaderState();
+    return VocabListLoaderState(apiVocabs: apiVocabs);
   }
 }
 
 
 class VocabListLoaderState extends State<VocabListLoader> {
 
-  VocabListLoaderState();
+  String apiVocabs;
+  VocabListLoaderState({this.apiVocabs});
 
   @override
   Widget build(BuildContext context) {
@@ -61,7 +66,7 @@ class VocabListLoaderState extends State<VocabListLoader> {
   }
 
   Future<List<Vocab>> fetch() async{
-    String js = await APIUtil.getVocabsJson();
+    String js = await APIUtil.getVocabsJson(apiVocabs);
     List<Vocab> vocabs = parse(js);
     print(vocabs);
     return vocabs;
@@ -71,6 +76,7 @@ class VocabListLoaderState extends State<VocabListLoader> {
     try {
       final parsed = json.decode(js).cast<Map<String, dynamic>>();
       List vocabs =  parsed.map((vocab) {
+        print(vocab);
         return Vocab.fromJson(vocab);
       }).toList();
       print('done');

@@ -1,0 +1,72 @@
+[
+  {
+    "id": 0,
+    "lesson": 2,
+    "type": 3,
+    "en": "Defective",
+    "ipa": "/dɪˈfek·tɪv/",
+    "vi": "Bị lỗi",
+    "description": "Something that doesn't work as it should",
+    "urlPronunciation": "sound/u3/Defective.mp3"
+  },
+  {
+    "id": 1,
+    "lesson": 2,
+    "type": 4,
+    "en": "Lose track of",
+    "ipa": "/luːz træk əv/",
+    "vi": "Quên theo dõi gì đó",
+    "description": "To forget about something",
+    "urlPronunciation": "sound/u3/Lose track of.mp3"
+  },
+  {
+    "id": 2,
+    "lesson": 2,
+    "type": 1,
+    "en": "Inscribe",
+    "ipa": "/ɪnˈskraɪb/",
+    "vi": "Việc chạm khắc",
+    "description": "To make marks into the surface of an object",
+    "urlPronunciation": "sound/u3/Inscribe.mp3"
+  },
+  {
+    "id": 3,
+    "lesson": 2,
+    "type": 1,
+    "en": "Shopper",
+    "ipa": "/ˈʃɒp.ər/",
+    "vi": "Người mua hàng, mua sắm",
+    "description": "Someone shopping",
+    "urlPronunciation": "sound/u3/Shopper.mp3"
+  },
+  {
+    "id": 4,
+    "lesson": 2,
+    "type": 4,
+    "en": "Clay tablet",
+    "ipa": "/kleɪ ˈtæb.lət/",
+    "vi": "Phiến đất sét",
+    "description": "A flat clay surface which people marked with tools long ago",
+    "urlPronunciation": "sound/u3/Clay tablet.mp3"
+  },
+  {
+    "id": 5,
+    "lesson": 2,
+    "type": 4,
+    "en": "In need",
+    "ipa": "/ɪn niːd/",
+    "vi": "Đang trong lúc cần (thiếu thốn)",
+    "description": "When someone lacks something important, like food",
+    "urlPronunciation": "sound/u3/In need.mp3"
+  },
+  {
+    "id": 6,
+    "lesson": 2,
+    "type": 4,
+    "en": "Proof of purchase",
+    "ipa": "/pruːf əv ˈpɜː.tʃəs/",
+    "vi": "Bằng chứng mua hàng (hóa đơn)",
+    "description": "A receipt",
+    "urlPronunciation": "sound/u3/Proof of purchase.mp3"
+  }
+]

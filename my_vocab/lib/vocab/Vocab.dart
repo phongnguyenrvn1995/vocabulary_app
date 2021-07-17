@@ -19,14 +19,14 @@ class Vocab {
 
   Map<String, dynamic> toJson() {
     return {
-      'id': this.id.toString(),
-      'lesson': this.lesson.toString(),
-      'type': this.type.toString(),
-      'en': '"' + this.en.toString() + '"',
-      'ipa': '"' + this.ipa.toString() + '"',
-      'vi': '"' + this.vi.toString() + '"',
-      'description': '"' + this.description.toString() + '"',
-      'urlPronunciation': '"' + this.urlPronunciation.toString() + '"',
+      "id": this.id.toString(),
+      "lesson": this.lesson.toString(),
+      "type": this.type.toString(),
+      "en": '"' + this.en.toString() + '"',
+      "ipa": '"' + this.ipa.toString() + '"',
+      "vi": '"' + this.vi.toString() + '"',
+      "description": '"' + this.description.toString() + '"',
+      "urlPronunciation": '"' + this.urlPronunciation.toString() + '"',
     };
   }
 }

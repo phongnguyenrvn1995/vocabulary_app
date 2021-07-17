@@ -1,0 +1,82 @@
+[
+  {
+    "id": 0,
+    "lesson": 0,
+    "type": 1,
+    "en": "Cashmere",
+    "ipa": "/ˈkæʃ.mɪər/",
+    "vi": "Vãi len",
+    "description": "A very soft and expensive type of wool",
+    "urlPronunciation": "sound/u1/Cashmere.mp3"
+  },
+  {
+    "id": 1,
+    "lesson": 0,
+    "type": 1,
+    "en": "Silk",
+    "ipa": "/sɪlk/",
+    "vi": "Vãi lụa",
+    "description": "A soft, shiny material made by insects, worms and spiders",
+    "urlPronunciation": "sound/u1/silk.mp3"
+  },  
+  {
+    "id": 2,
+    "lesson": 0,
+    "type": 1,
+    "en": "Wool",
+    "ipa": "/wʊl/",
+    "vi": "Vãi",
+    "description": "Hair from some animals, mostly sheep, which makes thick thread",
+    "urlPronunciation": "sound/u1/wool.mp3"
+  },
+  {
+    "id": 3,
+    "lesson": 0,
+    "type": 1,
+    "en": "Textile",
+    "ipa": "/ˈtek.staɪl/",
+    "vi": "Đồ dệt may",
+    "description": "A cloth",
+    "urlPronunciation": "sound/u1/Textile.mp3"
+  },
+  {
+    "id": 4,
+    "lesson": 0,
+    "type": 1,
+    "en": "Sweater",
+    "ipa": "/ˈswet.ər/",
+    "vi": "Áo len",
+    "description": "A warm, long-sleeve top made from wool",
+    "urlPronunciation": "sound/u1/Sweater.mp3"
+  },
+  {
+    "id": 5,
+    "lesson": 0,
+    "type": 1,
+    "en": "Mauve",
+    "ipa": "/məʊv/",
+    "vi": "Màu hoa cà",
+    "description": "Dye of a colour similar to purple",
+    "urlPronunciation": "sound/u1/Mauve.mp3"
+  },
+  {
+    "id": 6,
+    "lesson": 0,
+    "type": 4,
+    "en": "Suit of armour",
+    "ipa": "/suːt əv ˈɑː.mər/",
+    "vi": "Bộ áo giáp",
+    "description": "A protective outfit worn by soldiers a long time ago",
+    "urlPronunciation": "sound/u1/Suit of armour.mp3"
+  },
+  {
+    "id": 7,
+    "lesson": 0,
+    "type": 1,
+    "en": "Dye",
+    "ipa": "/daɪ/",
+    "vi": "Thuốc nhuộm",
+    "description": "A liquid used to change the colour of a textile",
+    "urlPronunciation": "sound/u1/Dye.mp3"
+  }
+]

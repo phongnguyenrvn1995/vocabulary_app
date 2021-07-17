@@ -1,7 +1,7 @@
 // @dart=2.9
 import 'package:flutter/cupertino.dart';
+import 'package:my_vocab/vocab/Vocab.dart';
 
-import 'Vocab.dart';
 import 'VocabCard.dart';
 
 class VocabAnimContainState<VocabAnimContainFul> extends State with SingleTickerProviderStateMixin{

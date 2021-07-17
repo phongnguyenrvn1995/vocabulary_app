@@ -1,0 +1,82 @@
+[
+  {
+    "id": 0,
+    "lesson": 5,
+    "type": 1,
+    "en": "Cook book",
+    "urlPronunciation": "sound/u6/Cook book.mp3",
+    "description": "A book of recipes & cooking instructions",
+    "vi": "Sách nấu ăn",
+    "ipa": "/kʊk bʊk/"
+  },
+  {
+    "id": 1,
+    "lesson": 5,
+    "type": 1,
+    "en": "Beaver",
+    "urlPronunciation": "sound/u6/Beaver.mp3",
+    "description": "A small animal with sharp teeth and a large, flat tail",
+    "vi": "Con hải ly",
+    "ipa": "/ˈbiː.vər/"
+  },
+  {
+    "id": 2,
+    "lesson": 5,
+    "type": 4,
+    "en": "Tea bag",
+    "urlPronunciation": "sound/u6/Tea bag.mp3",
+    "description": "The small pouch of tea you put into hot water",
+    "vi": "Túi trà",
+    "ipa": "/ˈti ˌbæɡ/"
+  },
+  {
+    "id": 3,
+    "lesson": 5,
+    "type": 1,
+    "en": "Nectar",
+    "urlPronunciation": "sound/u6/Nectar.mp3",
+    "description": "The sweet liquid a flower produces to attract insects",
+    "vi": "Mật hoa",
+    "ipa": "/ˈnek.tər/"
+  },
+  {
+    "id": 4,
+    "lesson": 5,
+    "type": 1,
+    "en": "Essence",
+    "urlPronunciation": "sound/u6/Essence.mp3",
+    "description": "A strong liquid used to add flavour to something",
+    "vi": "Dầu thơm",
+    "ipa": "/ˈes.əns/"
+  },
+  {
+    "id": 5,
+    "lesson": 5,
+    "type": 1,
+    "en": "Vomit",
+    "urlPronunciation": "sound/u6/Vomit.mp3",
+    "description": "What comes out of your mouth when you are sick of drunk",
+    "vi": "Chất mữa ói",
+    "ipa": "/ˈvɒm.ɪt/"
+  },
+  {
+    "id": 6,
+    "lesson": 5,
+    "type": 1,
+    "en": "Gland",
+    "urlPronunciation": "sound/u6/Gland.mp3",
+    "description": "A small organ which produces specific chemicals",
+    "vi": "Tuyến (tuyến tụy, tuyến yên...)",
+    "ipa": "/ɡlænd/"
+  },
+  {
+    "id": 7,
+    "lesson": 5,
+    "type": 1,
+    "en": "Delicacy",
+    "urlPronunciation": "sound/u6/Delicacy.mp3",
+    "description": "Something very rare or expensive to eat",
+    "vi": "Thức ăn ngon & đắc tiền",
+    "ipa": "/ˈdel.ɪ.kə.si/"
+  }
+]

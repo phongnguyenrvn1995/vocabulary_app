@@ -1,12 +1,11 @@
 // @dart=2.9
-import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:my_vocab/APIUtils.dart';
-import 'package:my_vocab/Vocab.dart';
-import 'package:my_vocab/VocabAnimContainFul.dart';
-import 'package:my_vocab/VocabCard.dart';
-import 'package:my_vocab/VocabListLoader.dart';
+import 'package:my_vocab/lesson/Lesson.dart';
+import 'package:my_vocab/lesson/LessonCard.dart';
+import 'package:my_vocab/lesson/LessonListLoader.dart';
+import 'package:my_vocab/lesson/LessonPage.dart';
+import 'package:my_vocab/vocab/Vocab.dart';
 
 void main() {
   runApp(MyApp());
@@ -21,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: _4Test(title: 'Flutter Demo Home Page'),
+      home: LessonPage(title: 'OK',),
     );
   }
 }
@@ -44,21 +43,11 @@ class _4Test extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Lesson lessons = Lesson(1, "Nature 1", "nature1.json");
     return Scaffold(
-      appBar: AppBar(title: Text(this.title),),
-      body:Column(
-        mainAxisSize: MainAxisSize.max,
-        children: [
-          Container(
-            height: (MediaQuery.of(context).size.height),
-            width: (MediaQuery.of(context).size.width),
-            child: Center(
-              child: VocabListLoader(),
-            ),
-          )
-        ],
-
-        )
-      );
+      body: Center(
+        child: LessonListLoader()
+      ),
+    );
   }
 }

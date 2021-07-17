@@ -1,0 +1,82 @@
+[
+  {
+    "id": 0,
+    "lesson": 4,
+    "type": 1,
+    "en": "Escargot",
+    "ipa": "/ɪˈskɑː.ɡəʊ/",
+    "vi": "Con ốc sên",
+    "description": "Small edible snails",
+    "urlPronunciation": "sound/u5/Escargot.mp3"
+  },
+  {
+    "id": 1,
+    "lesson": 4,
+    "type": 1,
+    "en": "Baguette",
+    "ipa": "/bæɡˈet/",
+    "vi": "Bánh mì dài",
+    "description": "The long, traditional French bread",
+    "urlPronunciation": "sound/u5/Baguette.mp3"
+  },
+  {
+    "id": 2,
+    "lesson": 4,
+    "type": 1,
+    "en": "Protein",
+    "ipa": "/ˈprəʊ.tiːn/",
+    "vi": "Protein",
+    "description": "A substance in food, mostly meat, essential for your growth",
+    "urlPronunciation": "sound/u5/Protein.mp3"
+  },
+  {
+    "id": 3,
+    "lesson": 4,
+    "type": 1,
+    "en": "Yeast",
+    "ipa": "/jiːst/",
+    "vi": "Men",
+    "description": "A type of fungus used to make bread rise",
+    "urlPronunciation": "sound/u5/Yeast.mp3"
+  },
+  {
+    "id": 4,
+    "lesson": 4,
+    "type": 1,
+    "en": "Slime",
+    "urlPronunciation": "sound/u5/Slime.mp3",
+    "description": "The sticky liquid that follows behind a snail",
+    "ipa": "/slaɪm/",
+    "vi": "Chất nhờn"
+  },
+  {
+    "id": 5,
+    "lesson": 4,
+    "type": 1,
+    "en": "Flour",
+    "urlPronunciation": "sound/u5/Flour.mp3",
+    "description": "The white powder make from wheat and used for baking",
+    "ipa": "/flaʊər/",
+    "vi": "Bột mì"
+  },
+  {
+    "id": 6,
+    "lesson": 4,
+    "type": 4,
+    "en": "Stomach ulcer",
+    "urlPronunciation": "sound/u5/Stomach ulcer.mp3",
+    "description": "A break or rip in the skin of your stomach",
+    "vi": "Loét dạ dày",
+    "ipa": "/ˈstʌm.ək ˈʌl.sər/"
+  },
+  {
+    "id": 7,
+    "lesson": 4,
+    "type": 4,
+    "en": "Lunch break",
+    "urlPronunciation": "sound/u5/Lunch break.mp3",
+    "description": "When you stop working to have lunch",
+    "vi": "Giờ ăn trưa",
+    "ipa": "/lʌntʃ breɪk/"
+  }
+]

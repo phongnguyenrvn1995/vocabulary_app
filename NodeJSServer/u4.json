@@ -1,0 +1,72 @@
+[
+  {
+    "id": 0,
+    "lesson": 3,
+    "type": 1,
+    "en": "Conversation",
+    "ipa": "/ˌkɒn.vəˈseɪ.ʃən/",
+    "vi": "Cuộc hội thoại",
+    "description": "The act of 2 people talking to each other",
+    "urlPronunciation": "sound/u4/Conversation.mp3"
+  },
+  {
+    "id": 1,
+    "lesson": 3,
+    "type": 4,
+    "en": "Candy store",
+    "ipa": "/ˈkæn.di stɔːr/",
+    "vi": "Tiệm kẹo",
+    "description": "A shop selling only sweets",
+    "urlPronunciation": "sound/u4/Candy store.mp3"
+  },
+  {
+    "id": 2,
+    "lesson": 3,
+    "type": 1,
+    "en": "Concierge",
+    "ipa": "/ˌkɒn.siˈeəʒ/",
+    "vi": "Tiệm kẹo",
+    "description": "A person whose job is to help guests or arrange things",
+    "urlPronunciation": "sound/u4/Concierge.mp3"
+  },
+  {
+    "id": 3,
+    "lesson": 3,
+    "type": 3,
+    "en": "Indoor",
+    "ipa": "/ˌɪnˈdɔːr/",
+    "vi": "Trong nhà",
+    "description": "Relating to inside a building",
+    "urlPronunciation": "sound/u4/Indoor.mp3"
+  },
+  {
+    "id": 4,
+    "lesson": 3,
+    "type": 1,
+    "en": "Zone",
+    "ipa": "/zəʊn/",
+    "vi": "Khu vực",
+    "description": "An area of a building with a specific purpose",
+    "urlPronunciation": "sound/u4/Zone.mp3"
+  },
+  {
+    "id": 5,
+    "lesson": 3,
+    "type": 4,
+    "en": "Dive shop",
+    "ipa": "/daɪv ʃɒp/",
+    "vi": "Cửa hàng đồ lặn",
+    "description": "A place that teaches scuba diving and rents supplies for it",
+    "urlPronunciation": "sound/u4/Dive shop.mp3"
+  },
+  {
+    "id": 5,
+    "lesson": 3,
+    "type": 3,
+    "en": "Vacant",
+    "ipa": "/ˈveɪ.kənt/",
+    "vi": "Bị bỏ trống",
+    "description": "Empty",
+    "urlPronunciation": "sound/u4/Vacant.mp3"
+  }
+]
