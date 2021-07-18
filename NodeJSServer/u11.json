@@ -1,0 +1,82 @@
+[
+  {
+    "id": 0,
+    "lesson": 10,
+    "type": 3,
+    "en": "Facial",
+    "urlPronunciation": "sound/u11/Facial.mp3",
+    "description": "Relating to the face",
+    "vi": "Thuộc về khuôn mặt",
+    "ipa": "/ˈfeɪʃəl/"
+  },
+  {
+    "id": 1,
+    "lesson": 10,
+    "type": 1,
+    "en": "Digestion",
+    "urlPronunciation": "sound/u11/Digestion.mp3",
+    "description": "Changing food into nutrients inside your body",
+    "vi": "Sự tiêu hóa",
+    "ipa": "/dɪˈʤɛsʧən/"
+  },
+  {
+    "id": 2,
+    "lesson": 10,
+    "type": 3,
+    "en": "Physiological",
+    "urlPronunciation": "sound/u11/Physiological.mp3",
+    "description": "Relating to how your body work",
+    "vi": "Sự tiêu hóa",
+    "ipa": "/ˌfɪzɪəˈlɒʤɪkəl/"
+  },
+  {
+    "id": 3,
+    "lesson": 10,
+    "type": 1,
+    "en": "Correlation",
+    "urlPronunciation": "sound/u11/Correlation.mp3",
+    "description": "A connection between 2 things",
+    "vi": "Mối tương quan",
+    "ipa": "/ˌkɒrɪˈleɪʃən/"
+  },
+  {
+    "id": 4,
+    "lesson": 10,
+    "type": 4,
+    "en": "Body heat",
+    "urlPronunciation": "sound/u11/Body heat.mp3",
+    "description": "The normal temperature of your body",
+    "vi": "Thân nhiệt",
+    "ipa": "/ˈbɒdi hiːt/"
+  },
+  {
+    "id": 5,
+    "lesson": 10,
+    "type": 4,
+    "en": "Animal kingdom",
+    "urlPronunciation": "sound/u11/Animal kingdom.mp3",
+    "description": "All animals",
+    "vi": "Thế giới động vật",
+    "ipa": "/ˈænɪməl ˈkɪŋdəm/"
+  },
+  {
+    "id": 6,
+    "lesson": 10,
+    "type": 4,
+    "en": "Blood flow",
+    "urlPronunciation": "sound/u11/Blood flow.mp3",
+    "description": "The normal circulation of blood in your body",
+    "vi": "Lưu lượng máu",
+    "ipa": "/blʌd fləʊ/"
+  },
+  {
+    "id": 7,
+    "lesson": 10,
+    "type": 3,
+    "en": "Astonished",
+    "urlPronunciation": "sound/u11/Astonished.mp3",
+    "description": "Very surprised",
+    "vi": "Kinh ngạc",
+    "ipa": "/əsˈtɒnɪʃt/"
+  }
+]

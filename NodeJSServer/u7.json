@@ -1,0 +1,82 @@
+[
+  {
+    "id": 0,
+    "lesson": 6,
+    "type": 1,
+    "en": "Organ",
+    "urlPronunciation": "sound/u7/Organ.mp3",
+    "description": "A part of the body that performs a particular job",
+    "vi": "Bộ phận cơ thể",
+    "ipa": "/ˈɔː.ɡən/"
+  },
+  {
+    "id": 1,
+    "lesson": 6,
+    "type": 4,
+    "en": "House dust",
+    "urlPronunciation": "sound/u7/House dust.mp3",
+    "description": "Dirt found specifically in the house",
+    "vi": "Bụi nhà",
+    "ipa": "/ˌhaʊs dʌst/"
+  },
+  {
+    "id": 2,
+    "lesson": 6,
+    "type": 4,
+    "en": "Line of defense",
+    "urlPronunciation": "sound/u7/Line of defense.mp3",
+    "description": "When something protects someone against danger",
+    "vi": "Tuyến phòng thủ",
+    "ipa": "/laɪn əv dɪˈfens/"
+  },
+  {
+    "id": 3,
+    "lesson": 6,
+    "type": 0,
+    "en": "Shed",
+    "urlPronunciation": "sound/u7/Shed.mp3",
+    "description": "To lose something in small amounts",
+    "vi": "Mất một lượng nhỏ gì đó",
+    "ipa": "/ʃed/"
+  },
+  {
+    "id": 4,
+    "lesson": 6,
+    "type": 1,
+    "en": "Eyelash",
+    "urlPronunciation": "sound/u7/Eyelash.mp3",
+    "description": "The hairs on your eyelids",
+    "vi": "Lông mi",
+    "ipa": "/ˈaɪ.læʃ/"
+  },
+  {
+    "id": 5,
+    "lesson": 6,
+    "type": 1,
+    "en": "Saliva",
+    "urlPronunciation": "sound/u7/Saliva.mp3",
+    "description": "The liquid you make naturally in your mouth",
+    "vi": "Nước bọt",
+    "ipa": "/səˈlaɪ.və/"
+  },
+  {
+    "id": 6,
+    "lesson": 6,
+    "type": 1,
+    "en": "Mite",
+    "urlPronunciation": "sound/u7/Mite.mp3",
+    "description": "A tiny animal similar to a spider",
+    "vi": "Con ve (chó)",
+    "ipa": "/maɪt/"
+  },
+  {
+    "id": 7,
+    "lesson": 6,
+    "type": 0,
+    "en": "Daydream",
+    "urlPronunciation": "sound/u7/Daydream.mp3",
+    "description": "To think of various things for a while without a purpose",
+    "vi": "Mơ mộng",
+    "ipa": "/ˈdeɪ.driːm/"
+  }
+]

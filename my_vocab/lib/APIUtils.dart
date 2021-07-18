@@ -2,7 +2,7 @@
 import 'package:http/http.dart' as http;
 
 class APIUtil {
-  static final String API_URL = "http://192.168.0.10";
+  static final String API_URL = "http://18.224.182.129";
   static final int PORT = 8000;
   // static final String API_VOCABS = "vocabs.json";
   static final String API_LESSONS = "lessons.json";

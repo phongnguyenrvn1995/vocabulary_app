@@ -1,0 +1,62 @@
+[
+  {
+    "id": 0,
+    "lesson": 9,
+    "type": 1,
+    "en": "Laughter",
+    "urlPronunciation": "sound/u10/Laughter.mp3",
+    "description": "The noise you make when you see something funny",
+    "vi": "Tiếng cười",
+    "ipa": "/ˈlɑːftə/"
+  },
+  {
+    "id": 1,
+    "lesson": 9,
+    "type": 3,
+    "en": "Ticklish",
+    "urlPronunciation": "sound/u10/Ticklish.mp3",
+    "description": "Easily laugh when someone touches your skin",
+    "vi": "Nhột",
+    "ipa": "/ˈtɪklɪʃ/"
+  },
+  {
+    "id": 2,
+    "lesson": 9,
+    "type": 1,
+    "en": "Antidepressant",
+    "urlPronunciation": "sound/u10/Antidepressant.mp3",
+    "description": "A chemical that makes you stop feeling sad",
+    "vi": "Thuốc chống trầm cảm",
+    "ipa": "/ˌæn.ti.dɪˈpres.ənt/"
+  },
+  {
+    "id": 3,
+    "lesson": 9,
+    "type": 0,
+    "en": "Nominate",
+    "urlPronunciation": "sound/u10/Nominate.mp3",
+    "description": "To suggest that something be given a prize",
+    "vi": "Đề cử",
+    "ipa": "/ˈnɒmɪneɪt/"
+  },
+  {
+    "id": 4,
+    "lesson": 9,
+    "type": 4,
+    "en": "Seasonal affective disorder",
+    "urlPronunciation": "sound/u10/Seasonal affective disorder.mp3",
+    "description": "When people feel sad in the winter",
+    "vi": "Rối loạn cảm xúc theo mùa",
+    "ipa": "/ˈsiːzənl əˈfɛktɪv dɪsˈɔːdə/"
+  },
+  {
+    "id": 5,
+    "lesson": 9,
+    "type": 0,
+    "en": "Giggle",
+    "urlPronunciation": "sound/u10/Giggle.mp3",
+    "description": "To laugh quietly unable to stop",
+    "vi": "Cười khúc khích",
+    "ipa": "/ˈgɪgl/"
+  }
+]

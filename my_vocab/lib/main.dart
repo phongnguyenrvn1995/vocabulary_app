@@ -12,13 +12,28 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  static const MaterialColor kToDark = const MaterialColor(
+    0xffc0f5f3, // 0% comes in here, this will be color picked if no shade is selected when defining a Color property which doesn’t require a swatch.
+    const <int, Color>{
+      50: const Color(0xffc0f5f3),//10%
+      100: const Color(0xffc0f5f3),//20%
+      200: const Color(0xffc0f5f3),//30%
+      300: const Color(0xffc0f5f3),//40%
+      400: const Color(0xffc0f5f3),//50%
+      500: const Color(0xffc0f5f3),//60%
+      600: const Color(0xffc0f5f3),//70%
+      700: const Color(0xffc0f5f3),//80%
+      800: const Color(0xffc0f5f3),//90%
+      900: const Color(0xffc0f5f3),//100%
+    },
+  );
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.green,
       ),
       home: LessonPage(title: 'OK',),
     );

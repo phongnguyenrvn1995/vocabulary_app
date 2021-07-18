@@ -1,0 +1,62 @@
+[
+  {
+    "id": 0,
+    "lesson": 8,
+    "type": 1,
+    "en": "Break-up",
+    "urlPronunciation": "sound/u9/Break-up.mp3",
+    "description": "When 2 people stop being in a relationship",
+    "vi": "Cuộc chia tay",
+    "ipa": "/breɪk ʌp/"
+  },
+  {
+    "id": 1,
+    "lesson": 8,
+    "type": 1,
+    "en": "Hopeful",
+    "urlPronunciation": "sound/u9/Hopeful.mp3",
+    "description": "Someone who is hoping for something specific",
+    "vi": "Sự hy vọng",
+    "ipa": "/ˈhəʊp.fəl/"
+  },
+  {
+    "id": 2,
+    "lesson": 8,
+    "type": 4,
+    "en": "Honeymoon stage",
+    "urlPronunciation": "sound/u9/Honeymoon stage.mp3",
+    "description": "Someone who is hoping for something specific",
+    "vi": "Giai đoạn trăng mật",
+    "ipa": "/ˈhʌn.i.muːn steɪdʒ/"
+  },
+  {
+    "id": 3,
+    "lesson": 8,
+    "type": 3,
+    "en": "Possessive",
+    "urlPronunciation": "sound/u9/Possessive.mp3",
+    "description": "When someone wants all the attention from his/her partner",
+    "vi": "Thuộc sở hữu",
+    "ipa": "/pəˈzes.ɪv/"
+  },
+  {
+    "id": 4,
+    "lesson": 8,
+    "type": 4,
+    "en": "Online daters",
+    "urlPronunciation": "sound/u9/Online daters.mp3",
+    "description": "People who look for partners using a website or app",
+    "vi": "Hẹn hò trên mạng",
+    "ipa": "/ˈɒnˌlaɪn ˈdeɪtəz/"
+  },
+  {
+    "id": 5,
+    "lesson": 8,
+    "type": 1,
+    "en": "Hook-up",
+    "urlPronunciation": "sound/u9/Hook-up.mp3",
+    "description": "A very brief sexual relationship with someone",
+    "vi": "Cuộc mây mưa ngẫu hứng",
+    "ipa": "/ˈhʊkʌp/"
+  }
+]

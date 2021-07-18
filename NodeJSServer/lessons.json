@@ -28,5 +28,30 @@
     "id": 5,
     "name": "6. Food & Drink 2",
     "apiVocabs": "u6.json"
+  },
+  {
+    "id": 6,
+    "name": "7. People",
+    "apiVocabs": "u7.json"
+  },
+  {
+    "id": 7,
+    "name": "8. Family & Relationship 1",
+    "apiVocabs": "u8.json"
+  },
+  {
+    "id": 8,
+    "name": "9. Family & Relationship 2",
+    "apiVocabs": "u9.json"
+  },
+  {
+    "id": 9,
+    "name": "10. Emotion 1",
+    "apiVocabs": "u10.json"
+  },
+  {
+    "id": 10,
+    "name": "11. Emotion 2",
+    "apiVocabs": "u11.json"
   }
 ]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": 0,
+    "lesson": 7,
+    "type": 1,
+    "en": "Polygamy",
+    "urlPronunciation": "sound/u8/Polygamy.mp3",
+    "description": "Marriage with more than 2 people",
+    "vi": "Đa thê",
+    "ipa": "/pəˈlɪɡ.ə.mi/"
+  },
+  {
+    "id": 1,
+    "lesson": 7,
+    "type": 1,
+    "en": "Longevity",
+    "urlPronunciation": "sound/u8/Longevity.mp3",
+    "description": "Ability to last for a long time",
+    "vi": "Tuổi thọ",
+    "ipa": "/lɒnˈdʒev.ə.ti/"
+  },
+  {
+    "id": 2,
+    "lesson": 7,
+    "type": 3,
+    "en": "Infamous",
+    "urlPronunciation": "sound/u8/Infamous.mp3",
+    "description": "Famous for something bad",
+    "vi": "Khét tiếng",
+    "ipa": "/ˈɪn.fə.məs/"
+  },
+  {
+    "id": 3,
+    "lesson": 7,
+    "type": 3,
+    "en": "Extravagant",
+    "urlPronunciation": "sound/u8/Extravagant.mp3",
+    "description": "Spending too much money",
+    "vi": "Xa hoa",
+    "ipa": "/ɪkˈstræv.ə.ɡənt/"
+  },
+  {
+    "id": 4,
+    "lesson": 7,
+    "type": 3,
+    "en": "Monogamous",
+    "urlPronunciation": "sound/u8/Monogamous.mp3",
+    "description": "When someone is married to only 1 person",
+    "vi": "Một vợ một chồng",
+    "ipa": "/məˈnɒɡ.ə.məs/"
+  }
+]

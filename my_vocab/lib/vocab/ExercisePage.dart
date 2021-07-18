@@ -26,7 +26,6 @@ class ExercisePage extends StatelessWidget {
                 child: Center(child: VocabListLoader(apiVocabs: apiVocabs,)),
               ),
             ),
-            Text('data')
           ],
         )
     );
