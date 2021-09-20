@@ -3,6 +3,7 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:my_vocab/APIUtils.dart';
+import 'package:my_vocab/consts/Consts.dart';
 import 'package:my_vocab/vocab/Vocab.dart';
 import 'package:scoped_model/scoped_model.dart';
 
@@ -57,15 +58,15 @@ class VocabCard extends StatelessWidget{
       padding: EdgeInsets.fromLTRB(0, 12, 0, 10),
       child: Column(
           children: [
-            Text(this.vocab.en, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25, color: Colors.blue)),
+            Text(this.vocab.vocab_en, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25, color: Colors.blue)),
             Container(
               padding: EdgeInsets.fromLTRB(0, 10, 0, 0),
-              child: Text(this.vocab.ipa, style: TextStyle(fontStyle: FontStyle.italic, fontSize: 20, color: Colors.cyan)),
+              child: Text(this.vocab.vocab_ipa, style: TextStyle(fontStyle: FontStyle.italic, fontSize: 20, color: Colors.cyan)),
             ),
             IconButton(
                 onPressed: () async {
                   try {
-                    String source = APIUtil.API_URL + ':' + APIUtil.PORT.toString() + '/' + vocab.urlPronunciation;
+                    String source = APIUtil.API_URL + ':' + APIUtil.PORT.toString() + APIUtil.API_ROOT_SOUND + '.' + vocab.vocab_sound_url;
                     print('MP3 source ' + source);
                     await player.play(source);
                   } catch (ex) {
@@ -86,7 +87,7 @@ class VocabCard extends StatelessWidget{
       padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
       child: Column(
           children: [
-              Text(this.vocab.vi, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20, color: Colors.deepPurple)),
+              Text(this.vocab.vocab_vi, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20, color: Colors.deepPurple)),
               Container(
               padding: EdgeInsets.fromLTRB(0, 10, 0, 10),
                       child: wordType()
@@ -95,7 +96,7 @@ class VocabCard extends StatelessWidget{
                   TextSpan(
                       children: [
                         TextSpan(text: 'Explain: ', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15, color: Colors.red)),
-                        TextSpan(text: this.vocab.description, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15, color: Colors.black87)),
+                        TextSpan(text: this.vocab.vocab_description, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15, color: Colors.black87)),
                       ]
                   )
               ),
@@ -109,21 +110,23 @@ class VocabCard extends StatelessWidget{
   }
 
   Color wordTypeColour(){
-    switch(this.vocab.type) {
-      case 0: return Color(0xFFD55F5F);
-      case 1: return Colors.green;
-      case 2: return Color(0xFF821CC1);
-      case 3: return Color(0xFFD56B32);
+    switch(this.vocab.vocab_type) {
+      case Consts.TYPE_VERB: return Color(0xFFDE1515);
+      case Consts.TYPE_NOUN: return Colors.green;
+      case Consts.TYPE_ADVERB: return Color(0xFF821CC1);
+      case Consts.TYPE_ADJECTIVE: return Color(0xFFD59F32);
+      case Consts.TYPE_PHRASE:
       default: return Color(0xFF414D74);
     }
   }
 
   String typeToString(){
-    switch(this.vocab.type) {
-      case 0: return 'Verb';
-      case 1: return 'Noun';
-      case 2: return 'Adverb';
-      case 3: return 'Adjective';
+    switch(this.vocab.vocab_type) {
+      case Consts.TYPE_VERB: return 'Verb';
+      case Consts.TYPE_NOUN: return 'Noun';
+      case Consts.TYPE_ADVERB: return 'Adverb';
+      case Consts.TYPE_ADJECTIVE: return 'Adjective';
+      case Consts.TYPE_PHRASE:
       default: return 'Phrase';
     }
   }

@@ -7,11 +7,11 @@ import 'VocabListLoader.dart';
 
 class ExercisePage extends StatelessWidget {
   String title = '';
-  String apiVocabs;
+  int lessonID;
   List<Vocab> vocabs = [];
 
 
-  ExercisePage({this.apiVocabs, this.title});
+  ExercisePage({this.lessonID, this.title});
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +23,7 @@ class ExercisePage extends StatelessWidget {
             Flexible(
               flex: 1,
               child: Container(
-                child: Center(child: VocabListLoader(apiVocabs: apiVocabs,)),
+                child: Center(child: VocabListLoader(lessonID: lessonID,)),
               ),
             ),
           ],

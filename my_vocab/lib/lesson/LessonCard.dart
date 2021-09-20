@@ -19,8 +19,8 @@ class LessonCard extends StatelessWidget {
             MaterialPageRoute(
                 builder: (context) {
                   return ExercisePage(
-                    title: 'Unit ' + this.lesson.lesson_name,
-                    apiVocabs: this.lesson.lesson_id.toString(),
+                    title: this.lesson.lesson_name,
+                    lessonID: this.lesson.lesson_id,
                   );
                 },
             )

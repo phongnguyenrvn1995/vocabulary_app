@@ -10,21 +10,21 @@ import 'package:my_vocab/vocab/Vocab.dart';
 import 'package:my_vocab/vocab/VocabAnimContainFul.dart';
 
 class VocabListLoader extends StatefulWidget {
-  String apiVocabs;
+  int lessonID;
 
-  VocabListLoader({this.apiVocabs});
+  VocabListLoader({this.lessonID});
 
   @override
   State<StatefulWidget> createState() {
-    return VocabListLoaderState(apiVocabs: apiVocabs);
+    return VocabListLoaderState(lessonID: lessonID);
   }
 }
 
 
 class VocabListLoaderState extends State<VocabListLoader> {
 
-  String apiVocabs;
-  VocabListLoaderState({this.apiVocabs});
+  int lessonID;
+  VocabListLoaderState({this.lessonID});
 
   @override
   Widget build(BuildContext context) {
@@ -66,7 +66,7 @@ class VocabListLoaderState extends State<VocabListLoader> {
   }
 
   Future<List<Vocab>> fetch() async{
-    String js = await APIUtil.getVocabsJson(apiVocabs);
+    String js = await APIUtil.getVocabsJson(lessonID);
     List<Vocab> vocabs = parse(js);
     print(vocabs);
     return vocabs;
