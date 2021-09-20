@@ -9,13 +9,21 @@ import 'package:my_vocab/lesson/Lesson.dart';
 import 'package:my_vocab/lesson/LessonCard.dart';
 
 class LessonListLoader extends StatefulWidget {
+  int courseID;
+
+  LessonListLoader(this.courseID);
+
   @override
   LessonListLoaderState createState() {
-    return LessonListLoaderState();
+    return LessonListLoaderState(courseID);
   }
 }
 
 class LessonListLoaderState extends State<LessonListLoader> {
+  int courseID;
+
+  LessonListLoaderState(this.courseID);
+
   @override
   Widget build(BuildContext context) {
     print('---------LessonListLoaderState--------');
@@ -61,7 +69,7 @@ class LessonListLoaderState extends State<LessonListLoader> {
   }
 
   Future<List<Lesson>> fetch() async {
-    String js = await APIUtil.getLessons();
+    String js = await APIUtil.getLessons(courseID);
     return parse(js);
   }
 

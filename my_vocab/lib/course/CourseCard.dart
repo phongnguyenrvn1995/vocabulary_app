@@ -3,6 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:my_vocab/course/Course.dart';
 import 'package:my_vocab/lesson/Lesson.dart';
+import 'package:my_vocab/lesson/LessonPage.dart';
 import 'package:my_vocab/vocab/ExercisePage.dart';
 
 class CourseCard extends StatelessWidget {
@@ -15,6 +16,14 @@ class CourseCard extends StatelessWidget {
       padding: EdgeInsets.zero,
       child: courseMain(),
       onPressed: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) {
+              return LessonPage(course.course_name, course.course_id);
+            },
+          )
+        );
       },
     );
   }

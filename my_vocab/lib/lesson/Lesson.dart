@@ -1,20 +1,19 @@
 //@dart=2.9
 class Lesson {
-  int id;
-  String name;
-  String apiVocabs;
+  int lesson_id;
+  int lesson_course;
+  String lesson_name;
+  int lesson_status;
 
-  Lesson(this.id, this.name, this.apiVocabs);
+
+  Lesson(this.lesson_id, this.lesson_course, this.lesson_name, this.lesson_status);
 
   factory Lesson.fromJson(Map<String, dynamic> map) {
-    return Lesson(map["id"], map["name"], map["apiVocabs"]);
-  }
-
-  Map<String, dynamic> toJson() {
-    return {
-      "id": '"' + this.id.toString() + '"',
-      "name": '"' + this.name.toString() + '"',
-      "apiVocabs": '"' + this.apiVocabs.toString() + '"'
-    };
+    return Lesson(
+        map['lesson_id'],
+        map['lesson_course'],
+        map['lesson_name'],
+        map['lesson_status']
+    );
   }
 }

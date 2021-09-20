@@ -19,8 +19,8 @@ class LessonCard extends StatelessWidget {
             MaterialPageRoute(
                 builder: (context) {
                   return ExercisePage(
-                    title: 'Unit ' + this.lesson.name,
-                    apiVocabs: this.lesson.apiVocabs,
+                    title: 'Unit ' + this.lesson.lesson_name,
+                    apiVocabs: this.lesson.lesson_id.toString(),
                   );
                 },
             )
@@ -39,7 +39,7 @@ class LessonCard extends StatelessWidget {
                   child: Container(
                     padding: EdgeInsets.fromLTRB(30, 0, 0, 0),
                     child:
-                    Text(this.lesson.name,
+                    Text(this.lesson.lesson_name,
                         style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25, color: Colors.green)),
                   )
               )
