@@ -1,6 +1,9 @@
 // @dart=2.9
 
 import 'package:flutter/material.dart';
+import 'package:my_vocab/course/Course.dart';
+import 'package:my_vocab/course/CourseCard.dart';
+import 'package:my_vocab/course/CoursePage.dart';
 import 'package:my_vocab/lesson/Lesson.dart';
 import 'package:my_vocab/lesson/LessonCard.dart';
 import 'package:my_vocab/lesson/LessonListLoader.dart';
@@ -35,7 +38,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      home: LessonPage(title: 'OK',),
+      home: CoursePage(title: 'OK',),
     );
   }
 }
@@ -58,10 +61,11 @@ class _4Test extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Lesson lessons = Lesson(1, "Nature 1", "nature1.json");
+    Course course = Course.fromJson({"course_id":18,"course_name":"Hack Brain Plus","course_description":"Collection of further words each unit","course_date_creat":"2021/09/16 12:53:25","course_status":1});
+    print(course.course_name);
     return Scaffold(
       body: Center(
-        child: LessonListLoader()
+        child: CourseCard(course: course,)
       ),
     );
   }
