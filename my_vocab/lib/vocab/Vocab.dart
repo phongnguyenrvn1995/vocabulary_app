@@ -1,12 +1,20 @@
 // @dart=2.9
 class Vocab {
+  // ignore: non_constant_identifier_names
   int vocab_id;
+  // ignore: non_constant_identifier_names
   int vocab_type;
+  // ignore: non_constant_identifier_names
   int vocab_lesson;
+  // ignore: non_constant_identifier_names
   String vocab_en;
+  // ignore: non_constant_identifier_names
   String vocab_ipa;
+  // ignore: non_constant_identifier_names
   String vocab_vi;
+  // ignore: non_constant_identifier_names
   String vocab_description;
+  // ignore: non_constant_identifier_names
   String vocab_sound_url;
 
 

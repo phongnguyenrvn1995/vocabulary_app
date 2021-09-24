@@ -1,8 +1,12 @@
 //@dart=2.9
 class Lesson {
+  // ignore: non_constant_identifier_names
   int lesson_id;
+  // ignore: non_constant_identifier_names
   int lesson_course;
+  // ignore: non_constant_identifier_names
   String lesson_name;
+  // ignore: non_constant_identifier_names
   int lesson_status;
 
 

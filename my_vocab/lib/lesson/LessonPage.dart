@@ -3,7 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'LessonListLoader.dart';
-
+//ignore: must_be_immutable
 class LessonPage extends StatelessWidget {
   final String title;
   int courseID;

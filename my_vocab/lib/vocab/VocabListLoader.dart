@@ -1,6 +1,5 @@
 // @dart=2.9
 import 'dart:convert';
-import 'dart:ffi';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -8,7 +7,7 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'package:my_vocab/APIUtils.dart';
 import 'package:my_vocab/vocab/Vocab.dart';
 import 'package:my_vocab/vocab/VocabAnimContainFul.dart';
-
+//ignore: must_be_immutable
 class VocabListLoader extends StatefulWidget {
   int lessonID;
 

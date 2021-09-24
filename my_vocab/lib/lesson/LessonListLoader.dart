@@ -7,7 +7,7 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'package:my_vocab/APIUtils.dart';
 import 'package:my_vocab/lesson/Lesson.dart';
 import 'package:my_vocab/lesson/LessonCard.dart';
-
+//ignore: must_be_immutable
 class LessonListLoader extends StatefulWidget {
   int courseID;
 

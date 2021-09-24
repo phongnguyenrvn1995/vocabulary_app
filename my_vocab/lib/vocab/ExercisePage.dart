@@ -5,6 +5,7 @@ import 'package:my_vocab/vocab/Vocab.dart';
 
 import 'VocabListLoader.dart';
 
+//ignore: must_be_immutable
 class ExercisePage extends StatelessWidget {
   String title = '';
   int lessonID;

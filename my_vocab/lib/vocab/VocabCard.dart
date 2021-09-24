@@ -6,7 +6,7 @@ import 'package:my_vocab/APIUtils.dart';
 import 'package:my_vocab/consts/Consts.dart';
 import 'package:my_vocab/vocab/Vocab.dart';
 import 'package:scoped_model/scoped_model.dart';
-
+//ignore: must_be_immutable
 class VocabCard extends StatelessWidget{
   final Vocab vocab;
   CardStatus cardStatus = CardStatus();
@@ -141,7 +141,7 @@ class CardStatus extends Model{
     notifyListeners();
   }
 }
-
+//ignore: must_be_immutable
 class MyAnimWidget extends StatelessWidget {
   Animation animation;
   Widget child;

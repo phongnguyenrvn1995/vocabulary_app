@@ -4,10 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:my_vocab/course/Course.dart';
 import 'package:my_vocab/course/CourseCard.dart';
 import 'package:my_vocab/course/CoursePage.dart';
-import 'package:my_vocab/lesson/Lesson.dart';
-import 'package:my_vocab/lesson/LessonCard.dart';
-import 'package:my_vocab/lesson/LessonListLoader.dart';
-import 'package:my_vocab/lesson/LessonPage.dart';
 import 'package:my_vocab/vocab/Vocab.dart';
 
 void main() {
@@ -34,7 +30,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Windy Vocabulary',
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),

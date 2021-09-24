@@ -2,9 +2,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:my_vocab/course/Course.dart';
-import 'package:my_vocab/lesson/Lesson.dart';
 import 'package:my_vocab/lesson/LessonPage.dart';
-import 'package:my_vocab/vocab/ExercisePage.dart';
 
 class CourseCard extends StatelessWidget {
   final Course course;

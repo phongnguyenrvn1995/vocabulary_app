@@ -13,6 +13,7 @@ class VocabAnimContainState<VocabAnimContainFul> extends State with SingleTicker
 
   @override
   void initState() {
+    super.initState();
     controller = AnimationController(
         duration: Duration(milliseconds: 300),
         vsync: this
