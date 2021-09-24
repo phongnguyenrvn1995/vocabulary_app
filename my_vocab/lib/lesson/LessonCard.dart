@@ -2,7 +2,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:my_vocab/lesson/Lesson.dart';
-import 'package:my_vocab/vocab/ExercisePage.dart';
+import 'package:my_vocab/vocab/VocabPage.dart';
 
 class LessonCard extends StatelessWidget {
   final Lesson lesson;
@@ -18,7 +18,7 @@ class LessonCard extends StatelessWidget {
             context,
             MaterialPageRoute(
                 builder: (context) {
-                  return ExercisePage(
+                  return VocabPage(
                     title: this.lesson.lesson_name,
                     lessonID: this.lesson.lesson_id,
                   );

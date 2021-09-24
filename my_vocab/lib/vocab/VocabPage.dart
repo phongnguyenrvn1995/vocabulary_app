@@ -6,13 +6,13 @@ import 'package:my_vocab/vocab/Vocab.dart';
 import 'VocabListLoader.dart';
 
 //ignore: must_be_immutable
-class ExercisePage extends StatelessWidget {
+class VocabPage extends StatelessWidget {
   String title = '';
   int lessonID;
   List<Vocab> vocabs = [];
 
 
-  ExercisePage({this.lessonID, this.title});
+  VocabPage({this.lessonID, this.title});
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +28,14 @@ class ExercisePage extends StatelessWidget {
               ),
             ),
           ],
-        )
+        ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          // Add your onPressed code here!
+        },
+        child: Image.asset('assets/images/review.png'),
+        backgroundColor: Colors.green,
+      ),
     );
   }
 }
