@@ -1,6 +1,7 @@
 // @dart=2.9
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:my_vocab/exercise/Exercise.dart';
 import 'package:my_vocab/vocab/Vocab.dart';
 
 import 'VocabListLoader.dart';
@@ -32,6 +33,12 @@ class VocabPage extends StatelessWidget {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           // Add your onPressed code here!
+          Navigator.push(context,
+              MaterialPageRoute(builder: (context) {
+                  return Exercise(lessonID: lessonID, lessonName: title);
+                },
+              )
+          );
         },
         child: Image.asset('assets/images/review.png'),
         backgroundColor: Colors.green,
